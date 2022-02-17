@@ -18,19 +18,19 @@ body {   /* Configuracoes basicas do site para ficar exato (Obrigatorio) */
 }
 
 #menu nav {
-    display: inline-block;
+    display: inline-block; /*Conteudos do tipo inline block (Ficar um do lado do outro se caber) */
 }
 
 #menu li {
-    display: inline-block;
+    display: inline-block; /*Conteudos do tipo inline block (Ficar um do lado do outro se caber) */
 }
 
 #menu a {
-    color: aqua;
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 10px;
-    font-size: 18px;
+    color: aqua;  /*cor do texto (Aqua)*/
+    margin-top: 5px;  /* Margem no topo da pagina */
+    margin-left: 20px;  /*Margem da lado esquedo da pagina*/
+    margin-right: 10px; /*Margem do lado direito da pagina*/
+    font-size: 18px;  /* Tamanho da letra*/
     text-decoration: none; /* Tira o underline dos links */
     font-family: 'Chakra Petch', sans-serif;  /* Configuração da fonte da letra ( Necessita de outro link para o head do html) */
 }
